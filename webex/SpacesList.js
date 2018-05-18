@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import {FlatList} from 'react-native';
 
 import SpaceItem from './SpaceItem';

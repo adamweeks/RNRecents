@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 // import Icon, {ICONS} from '@ciscospark/react-component-icon';
 import {Image, Text, View} from 'react-native';
 
@@ -72,7 +71,7 @@ function Avatar({
   }
 
   return (
-    <View className={classNames('ciscospark-avatar')} style={[rnStyles.avatar, backgroundStyle, {height: size, width: size, borderRadius: size / 2}]}>
+    <View className="ciscospark-avatar" style={[rnStyles.avatar, backgroundStyle, {height: size, width: size, borderRadius: size / 2}]}>
       {avatarContents}
     </View>
   );
